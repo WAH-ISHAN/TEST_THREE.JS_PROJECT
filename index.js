@@ -1,5 +1,6 @@
 import * as THREE from 'https://unpkg.com/three@0.160.1/build/three.module.js';
 
+//DAY01
 
 const scene = new THREE.Scene(); //function to create a scene
 
@@ -35,3 +36,7 @@ const renderer = new THREE.WebGLRenderer({
 })
 renderer.setSize(sizes.width, sizes.height);
 renderer.render(scene, camera); // Render the scene with the camera
+
+
+
+//DAY02
